@@ -1,0 +1,1 @@
+A python tool to embed all images in a directory recursively.
