@@ -13,3 +13,6 @@ Updates the database if the tool is run on the same directory multiple times.
 ### References:
 - https://stackoverflow.com/questions/20063/whats-the-best-way-to-parse-command-line-arguments
 - https://docs.trychroma.com/usage-guide
+- https://pytorch.org/docs/stable/generated/torch.Tensor.tolist.html
+- https://github.com/codercowmoo/llm-clip (my siglip fork)
+- Guaranteed I missed some,
