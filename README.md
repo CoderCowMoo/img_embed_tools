@@ -11,6 +11,7 @@ Stores a chromadb database at $HOME\.cache\img_embeds\{DIR_NAME}\embeds.db
 Updates the database if the tool is run on the same directory multiple times.
 Runs on Nvidia GPU if it can, otherwise slow cpu. (62 seconds 5600g vs 4 seconds 3060 ti for 10 images)
 Uses MD5 hash of image as id for chromadb.
+Prefers speed by doing heavy imports only when necessary.
 
 ### References:
 - https://stackoverflow.com/questions/20063/whats-the-best-way-to-parse-command-line-arguments
