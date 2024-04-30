@@ -42,8 +42,8 @@ class EmbedImgDir:
                 img_path = path.join(root, file)
                 # get hash for use as ID
                 img_id = hashlib.md5(img_path.encode()).hexdigest()
-                # if alreayd in db, skip
-                if self.collection.get(img_id)["embeddings"]:
+                # if already in db, skip
+                if self.collection.get(img_id)["ids"]:
                     print(f"Skipping {img_path} as it is already in the database")
                     continue
                 img = Image.open(img_path)
